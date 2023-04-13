@@ -1,0 +1,26 @@
+body {
+    background: #696969;
+}
+
+aside {
+    float: left;
+    background: #505050;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #484848;
+}
+
+aside img {
+    width: 120px;
+    float: left;
+
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top:
+}
