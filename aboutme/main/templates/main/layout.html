@@ -14,13 +14,13 @@
 <body>
     <aside>
         <img src="{% static '/main/img/work.png' %}" alt="Лого">
-        <span class="logo">Ксения Совгатова</span>
+        <span class="logo">Ксения&nbsp;Совгатова</span>
         <h3>Навигация</h3>
         <ul>
              <style>a{text-decoration: none;}</style>
-            <a href=""><li><i class="fa fa-solid fa-house"></i>Главная</li></a>
-            <a href=""><li><i class="fa fa-solid fa-book"></i>О себе</li></a>
-            <a href=""><li><i class="fa fa-solid fa-user"></i>Контакты</li></a>
+            <a href="{% url 'home' %}"><li><i class="fa fa-solid fa-house"></i> Главная</li></a>
+            <a href="{% url 'about' %}"><li><i class="fa fa-solid fa-book"></i> О себе</li></a>
+            <a href="{% url 'contacts' %}"><li><i class="fa fa-solid fa-user"></i> Контакты</li></a>
         </ul>
     </aside>
     <main>

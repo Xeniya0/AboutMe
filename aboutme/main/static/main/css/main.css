@@ -1,26 +1,52 @@
 body {
-    background: #696969;
+    background: #2c2c2c;
 }
 
 aside {
     float: left;
-    background: #505050;
+    background: #181818;
     width: 20%;
     padding: 2.5%;
     height: 100vh;
     color: #fff;
-    border-right: 5px solid #484848;
+    border-right: 5px solid #4d4d4d;
 }
 
 aside img {
-    width: 120px;
+    width: 110px;
     float: left;
+    position: relative;
+    top: -30px;
+    left: -15px;
+
 
 }
 
 aside .logo {
-    font-size: 40px;
+    font-size: 29px;
     margin-left: 10px;
     font-weight: bold;
-    margin-top:
+    position: relative;
+    top: -38px;
+    left: -24px;
+}
+
+aside h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
 }
